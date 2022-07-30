@@ -11,6 +11,15 @@
 		B6DE89D7287FEABE002DFA28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89D6287FEABE002DFA28 /* ContentView.swift */; };
 		B6DE89D9287FEAC0002DFA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DE89D8287FEAC0002DFA28 /* Assets.xcassets */; };
 		B6DE89DC287FEAC0002DFA28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DE89DB287FEAC0002DFA28 /* Preview Assets.xcassets */; };
+		B6DE89E3287FEC9D002DFA28 /* MatematikModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89E2287FEC9D002DFA28 /* MatematikModel.swift */; };
+		B6DE89E5287FED6C002DFA28 /* DatabaseMatematik.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89E4287FED6C002DFA28 /* DatabaseMatematik.swift */; };
+		B6DE89E7287FEE27002DFA28 /* Matematik-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89E6287FEE27002DFA28 /* Matematik-ViewModel.swift */; };
+		B6DE89EC28800CD6002DFA28 /* DatabaseGeometri.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89EB28800CD6002DFA28 /* DatabaseGeometri.swift */; };
+		B6DE89EE28800CFA002DFA28 /* DatabaseTurkce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89ED28800CFA002DFA28 /* DatabaseTurkce.swift */; };
+		B6DE89F228800D47002DFA28 /* GeometriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89F128800D47002DFA28 /* GeometriModel.swift */; };
+		B6DE89F428800D70002DFA28 /* TurkceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89F328800D70002DFA28 /* TurkceModel.swift */; };
+		B6DE89F728800E2A002DFA28 /* Geometri-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89F628800E2A002DFA28 /* Geometri-ViewModel.swift */; };
+		B6DE89F928800E8E002DFA28 /* Turkce-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE89F828800E8E002DFA28 /* Turkce-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		B6DE89D6287FEABE002DFA28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6DE89D8287FEAC0002DFA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6DE89DB287FEAC0002DFA28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6DE89E2287FEC9D002DFA28 /* MatematikModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatematikModel.swift; sourceTree = "<group>"; };
+		B6DE89E4287FED6C002DFA28 /* DatabaseMatematik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseMatematik.swift; sourceTree = "<group>"; };
+		B6DE89E6287FEE27002DFA28 /* Matematik-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Matematik-ViewModel.swift"; sourceTree = "<group>"; };
+		B6DE89EB28800CD6002DFA28 /* DatabaseGeometri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseGeometri.swift; sourceTree = "<group>"; };
+		B6DE89ED28800CFA002DFA28 /* DatabaseTurkce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTurkce.swift; sourceTree = "<group>"; };
+		B6DE89F128800D47002DFA28 /* GeometriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometriModel.swift; sourceTree = "<group>"; };
+		B6DE89F328800D70002DFA28 /* TurkceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkceModel.swift; sourceTree = "<group>"; };
+		B6DE89F628800E2A002DFA28 /* Geometri-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Geometri-ViewModel.swift"; sourceTree = "<group>"; };
+		B6DE89F828800E8E002DFA28 /* Turkce-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Turkce-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,11 @@
 		B6DE89D3287FEABE002DFA28 /* DGSMeter */ = {
 			isa = PBXGroup;
 			children = (
+				B6DE89FA28800EEF002DFA28 /* View */,
+				B6DE89F528800DEA002DFA28 /* ViewModel */,
+				B6DE89F028800D1F002DFA28 /* Model */,
+				B6DE89EA28800CB3002DFA28 /* Database */,
 				B6DE89D4287FEABE002DFA28 /* DGSMeterApp.swift */,
-				B6DE89D6287FEABE002DFA28 /* ContentView.swift */,
 				B6DE89D8287FEAC0002DFA28 /* Assets.xcassets */,
 				B6DE89DA287FEAC0002DFA28 /* Preview Content */,
 			);
@@ -65,6 +86,44 @@
 				B6DE89DB287FEAC0002DFA28 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6DE89EA28800CB3002DFA28 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE89E4287FED6C002DFA28 /* DatabaseMatematik.swift */,
+				B6DE89EB28800CD6002DFA28 /* DatabaseGeometri.swift */,
+				B6DE89ED28800CFA002DFA28 /* DatabaseTurkce.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B6DE89F028800D1F002DFA28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE89E2287FEC9D002DFA28 /* MatematikModel.swift */,
+				B6DE89F128800D47002DFA28 /* GeometriModel.swift */,
+				B6DE89F328800D70002DFA28 /* TurkceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6DE89F528800DEA002DFA28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE89E6287FEE27002DFA28 /* Matematik-ViewModel.swift */,
+				B6DE89F628800E2A002DFA28 /* Geometri-ViewModel.swift */,
+				B6DE89F828800E8E002DFA28 /* Turkce-ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6DE89FA28800EEF002DFA28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE89D6287FEABE002DFA28 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DE89F928800E8E002DFA28 /* Turkce-ViewModel.swift in Sources */,
+				B6DE89EE28800CFA002DFA28 /* DatabaseTurkce.swift in Sources */,
+				B6DE89E3287FEC9D002DFA28 /* MatematikModel.swift in Sources */,
+				B6DE89F728800E2A002DFA28 /* Geometri-ViewModel.swift in Sources */,
 				B6DE89D7287FEABE002DFA28 /* ContentView.swift in Sources */,
+				B6DE89F228800D47002DFA28 /* GeometriModel.swift in Sources */,
+				B6DE89EC28800CD6002DFA28 /* DatabaseGeometri.swift in Sources */,
+				B6DE89F428800D70002DFA28 /* TurkceModel.swift in Sources */,
+				B6DE89E5287FED6C002DFA28 /* DatabaseMatematik.swift in Sources */,
+				B6DE89E7287FEE27002DFA28 /* Matematik-ViewModel.swift in Sources */,
 				B6DE89D5287FEABE002DFA28 /* DGSMeterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
